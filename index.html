@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice Event Handlers</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="myFunction()">Click me</button>
+
+    <button>Switch Color</button>
+    <script type="text/javascript">
+        var color = [#"FF0000", "4169E1"]
+        var i = 0;
+        document.querySelector("button").addEventListner("click", function () {
+            i + i < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color { i }
+        })
+
+    </script>
+
+    <p id="demo"></p>
+
+    <P id="OtherColor"></P>
+
+
+</body>
+
+
+
+<script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Button Clicked";
+    }
+
+
+</script>
+
+/*Gebruik een click event en "attach" het click event aan de button
+geef een alert: "button clicked"
+tweede button toe aan je HTML met de tekst "Change Background" */
